@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Lista de Tarefas</h1>
+        <label for="addInput" class="visually-hidden">Adicionar nova tarefa</label>
+        <div class="input-container"> <!-- Contêiner para o input e o botão -->
+            <input type="text" id="addInput" placeholder="Digite e aperte enter ou no botão de '+'" aria-label="Digite e aperte enter ou no botão de '+'">
+            <button class="addBtn" aria-label="Adicionar tarefa">+</button>
+        </div>
+        <ul id="todoList"></ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
